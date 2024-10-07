@@ -1,3 +1,3 @@
-FROM ngnix
+FROM ngnix:alpine
 copy . /usr/share/nginx/html/
-EXPOSE 8000
+EXPOSE 80
